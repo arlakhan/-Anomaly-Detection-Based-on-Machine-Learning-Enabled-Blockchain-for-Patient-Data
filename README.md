@@ -147,3 +147,53 @@ def run_simulation():
 
 # Run the simulation
 run_simulation()
+
+
+
+Results
+
+Epoch 1/10
+/usr/local/lib/python3.10/dist-packages/keras/src/layers/core/input_layer.py:26: UserWarning: Argument `input_shape` is deprecated. Use `shape` instead.
+  warnings.warn(
+25/25 ━━━━━━━━━━━━━━━━━━━━ 3s 25ms/step - accuracy: 0.9377 - loss: 0.4481 - val_accuracy: 0.9500 - val_loss: 0.2254
+Epoch 2/10
+25/25 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.9539 - loss: 0.2054 - val_accuracy: 0.9500 - val_loss: 0.2024
+Epoch 3/10
+25/25 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.9426 - loss: 0.2172 - val_accuracy: 0.9500 - val_loss: 0.1976
+Epoch 4/10
+25/25 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - accuracy: 0.9463 - loss: 0.2031 - val_accuracy: 0.9500 - val_loss: 0.1994
+Epoch 5/10
+25/25 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.9472 - loss: 0.2060 - val_accuracy: 0.9500 - val_loss: 0.2014
+Epoch 6/10
+25/25 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.9575 - loss: 0.1678 - val_accuracy: 0.9500 - val_loss: 0.2054
+Epoch 7/10
+25/25 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - accuracy: 0.9481 - loss: 0.1980 - val_accuracy: 0.9500 - val_loss: 0.2064
+Epoch 8/10
+25/25 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.9455 - loss: 0.1990 - val_accuracy: 0.9500 - val_loss: 0.2156
+Epoch 9/10
+25/25 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.9604 - loss: 0.1568 - val_accuracy: 0.9500 - val_loss: 0.2192
+Epoch 10/10
+25/25 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.9432 - loss: 0.1978 - val_accuracy: 0.9500 - val_loss: 0.2143
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 80ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 39ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 24ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+
+![image](https://github.com/user-attachments/assets/35d56f7f-0e00-470b-b248-bc5fb692c3b0)
+
