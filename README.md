@@ -10,7 +10,20 @@ The simulate_blockchain_anomaly_detection function simulates the anomaly detecti
 
 Finally, visualize_results plots the percentage of anomalies detected in each block. The run_simulation function ties everything together by generating the data, preprocessing it, training the model, and then simulating the blockchain mining and anomaly detection process.
 
-When you run this code, it will train the CNN on synthetic data, simulate blockchain block creation with anomaly detection, and then visualize the results.
+When you run this code, it will train the CNN on synthetic data, simulate blockchain block creation with anomaly detection, and then visualize the results. The flowchart of the framework with components as shown as below.
+
+-----------------         ------------------------         -------------------
+|  Patient Data  |       | Preprocess Data        |       | Simulate Blockchain|
+|  (Features,    | ----> | (Scaling, Train-Test    | ----> | Anomaly Detection   |
+|  Labels)       |       | Split)                 |       | (Mining, Anomalies) |
+-----------------         ------------------------         -------------------
+                                                           |
+                                                           v
+                                                   -------------------
+                                                   | Visualization    |
+                                                   | (Anomaly Plot)   |
+                                                   -------------------
+
 
 import numpy as np
 import pandas as pd
