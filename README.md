@@ -13,16 +13,8 @@ Finally, visualize_results plots the percentage of anomalies detected in each bl
 When you run this code, it will train the CNN on synthetic data, simulate blockchain block creation with anomaly detection, and then visualize the results. The flowchart of the framework with components as shown as below.
 
 -----------------         ------------------------         -------------------
-|  Patient Data  |       | Preprocess Data        |       | Simulate Blockchain|
-|  (Features,    | ----> | (Scaling, Train-Test    | ----> | Anomaly Detection   |
-|  Labels)       |       | Split)                 |       | (Mining, Anomalies) |
------------------         ------------------------         -------------------
-                                                           |
-                                                           v
-                                                   -------------------
-                                                   | Visualization    |
-                                                   | (Anomaly Plot)   |
-                                                   -------------------
+![image](https://github.com/user-attachments/assets/1c5882f6-61ad-41b3-a684-04df60e03ed0)
+
 
 
 import numpy as np
