@@ -1,0 +1,13 @@
+The code simulates a system that combines anomaly detection using Convolutional Neural Networks (CNN) with blockchain technology for validation. It works as follows:
+
+The generate_patient_data function creates synthetic data for 1000 patients with 20 features, adding some anomalies randomly. This data is then preprocessed using the StandardScaler to normalize it and split into training and test sets with train_test_split.
+
+A simple CNN model is defined in the create_cnn_model function. The model is designed to take the data, reshape it to fit the CNN structure, and detect anomalies by learning patterns in the data. The model has two convolutional layers, followed by max-pooling layers, and ends with a dense layer to output a binary classification (normal or anomalous).
+
+Next, a Blockchain class simulates the proof of work mining process. It generates blocks by mining them with a defined difficulty and records transactions. The mine_block function uses a nonce to find a valid block hash. The add_transaction method adds data (in this case, the patient data) to the block.
+
+The simulate_blockchain_anomaly_detection function simulates the anomaly detection process by iterating through the patient data in blocks of 10 samples. For each block, the CNN model predicts whether the data points are anomalous, and the blockchain validates the block by mining it. The result includes the block's information and the percentage of anomalies detected in that block.
+
+Finally, visualize_results plots the percentage of anomalies detected in each block. The run_simulation function ties everything together by generating the data, preprocessing it, training the model, and then simulating the blockchain mining and anomaly detection process.
+
+When you run this code, it will train the CNN on synthetic data, simulate blockchain block creation with anomaly detection, and then visualize the results.
